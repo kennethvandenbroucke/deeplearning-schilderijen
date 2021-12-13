@@ -27,4 +27,5 @@ Voor de website maak ik gebruik van flask en html pagina's, je kan een schilderi
 2. Picasso
 3. Rembrandt
 4. Rubens
+
 als de vervolgens op submit drukt wordt het schilderij nog eens getoont en krijg je de voorspelling van het model te zien.

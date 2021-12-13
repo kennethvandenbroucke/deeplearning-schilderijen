@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+<body style="margin: 20px;">
+<h1> Painting Author Recognition</h1>
+<form action="/predict" method="post" enctype="multipart/form-data">
+  <div class="mb-3">
+    choose an image
+    <input style="width: 15%;" type="file" class="form-control" id="fileinput", name="image">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+</html>

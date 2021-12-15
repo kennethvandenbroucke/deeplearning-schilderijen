@@ -19,9 +19,9 @@ if not os.path.exists('website/static/pics'):
 picfolder = os.path.join('static', 'pics')
 app.config['UPLOAD_FOLDER'] = picfolder
 
-# een uploadfolder aanmaken, zodat we de opgeladen images kunnen weegeven
+# een uploadfolder aanmaken, zodat we de opgeladen images kunnen weergeven
 
-labels = ['Mondriaan', 'Picasso', 'Rembrandt', 'Rubens']
+labels = ['Mondriaan', 'Picasso', 'Rembrandt', 'Rubens', 'VanGogh']
 
 
 # de labels aanmaken zodat we van de vector voorspelling de klasse kunnen weergeven in text

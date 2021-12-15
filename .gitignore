@@ -130,3 +130,9 @@ dmypy.json
 
 #schilderijen negeren
 /schilderijen
+
+# de opgeslagen modell negeren
+*.h5
+
+# .idea negeren omdat ik pycharm gebruik
+.idea
